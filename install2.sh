@@ -93,14 +93,13 @@ echo "系统即将重启。请等待 10-15 分钟后使用新密码登录。"
 # 运行 InstallNET 并传入静态 IP 参数
 # 注意：这里增加了 --ip-addr, --ip-gate, --ip-mask
 bash InstallNET.sh \
-    -debian 13 \
+    -debian 11 \
     -port "${PORT}" \
     -pwd "${PASSWORD}" \
     -mirror "http://deb.debian.org/debian/" \
     --ip-addr "${MAIN_IP}" \
     --ip-gate "${MAIN_GATE}" \
     --ip-mask "${MAIN_MASK}" \
-    -swap "512" \
     --cloudkernel "0" \
     --bbr \
     --motd \
