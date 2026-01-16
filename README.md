@@ -68,10 +68,10 @@
 
 ---
 
-## （二） Alpine 修复 GRUB 引导并重装 Debian 13 指南
+## （二） Alpine 修复 GRUB 引导并重装 Debian 11 指南
 
 > 适用于 **系统无法启动 / GRUB 损坏 / Debian 无法进入** 等场景  
-> 通过 **Alpine Linux + chroot** 的方式修复引导并重装 Debian 13
+> 通过 **Alpine Linux + chroot** 的方式修复引导并重装 Debian 11
 
 ### 使用方法
 
@@ -79,7 +79,7 @@
 2. 使用 **root 用户** 登录 Alpine 后，下载并执行脚本：
 
 ```bash
-wget -O install2.sh https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/install2.sh
+wget -O install2.sh https://raw.githubusercontent.com/ikangi/aliyun_monitor/main/install2.sh
 chmod +x install2.sh
 ./install2.sh
 ````
@@ -100,7 +100,7 @@ chmod +x install2.sh
 使用 **root 用户** 执行：
 
 ```bash
-wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/install.sh \
+wget -N https://raw.githubusercontent.com/ikangi/aliyun_monitor/main/install.sh \
 && chmod +x install.sh \
 && ./install.sh
 ```
@@ -117,7 +117,7 @@ wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/insta
 ## 🗑️ 卸载
 
 ```bash
-wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/uninstall.sh \
+wget -N https://raw.githubusercontent.com/ikangi/aliyun_monitor/main/uninstall.sh \
 && chmod +x uninstall.sh \
 && ./uninstall.sh
 ```
