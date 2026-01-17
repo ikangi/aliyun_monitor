@@ -43,7 +43,7 @@ def get_current_month_bill(client):
     try:
         billing_cycle = datetime.datetime.now().strftime("%Y-%m")
         request = CommonRequest()
-        request.set_domain('business.ap-southeast-1.aliyuncs.com') # 强制国际站接口
+        request.set_domain('business.aliyuncs.com')
         request.set_version('2017-12-14')
         request.set_action_name('QueryBillOverview')
         request.add_query_param('BillingCycle', billing_cycle)
