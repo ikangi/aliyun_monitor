@@ -22,7 +22,7 @@ fi
 
 # --- 3. 交互配置 ---
 clear
-echo "=== Alpine to Debian 13 全自动安装脚本 (防失联版) ==="
+echo "=== Alpine to Debian 全自动安装脚本 (防失联版) ==="
 echo "脚本将自动提取当前 IP 配置，执行静态 IP 安装。"
 echo ""
 
